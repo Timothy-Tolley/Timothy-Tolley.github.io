@@ -17,18 +17,19 @@ body {
     }
 
     .button {
-      color:#black;
-      font-size: 18px;
-      border: none;
-      padding: 7px 20px;
+      color:#FFFFFF;
+      background:#D1D0CF;
+      padding:,10px;
+      border:none;
+      font-size: 20px;
       cursor: crosshair;
       text-decoration:none;
       text-align:center;
       font-family: cursive;
+    }
 
-
-
-
+    .button:hover {
+      background:#BAB8B6;
     }
 
     /* The hero image */
