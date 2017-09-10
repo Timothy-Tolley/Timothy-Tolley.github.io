@@ -1,15 +1,14 @@
-body {color:grey;
+body {color:#FFFEF1;
+  background-color: #c9e8d5
     font-family:cursive;
     Padding:20px;
     }
 
 .secondary {
-Background: none;
-color:black;
-background-color:#555
+color:#FFFEF1;
 padding:10px;
 }
 
 #nav {
-  color:limegreen;
+  color:#A7BAFF;
 }
