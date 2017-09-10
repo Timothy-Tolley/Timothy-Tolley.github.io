@@ -6,7 +6,8 @@ body {color:grey;
 .secondary {
 Background: none;
 color:black;
-background-color:#555;
+background-color:#555
+padding:10px;
 }
 
 #nav {
