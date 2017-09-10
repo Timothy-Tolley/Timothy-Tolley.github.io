@@ -54,3 +54,18 @@ body {
     .button:hover {
       background:#BAB8B6
     }
+
+    .button-2 {
+      color:#71A1D1;
+      background:none;
+      padding:,15px 20px 15px 20px;
+      border:none;
+      font-size: 20px;
+      cursor: crosshair;
+      text-decoration:none;
+      text-align:center;
+      font-family: cursive;
+      display: inline;
+      Margin-right:20px;
+      margin-left: 20px;
+    }
