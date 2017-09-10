@@ -16,22 +16,6 @@ body {
       padding:10px;
     }
 
-    .button {
-      color:#FFFFFF;
-      background:#D1D0CF;
-      padding:,10px;
-      border:none;
-      font-size: 20px;
-      cursor: crosshair;
-      text-decoration:none;
-      text-align:center;
-      font-family: cursive;
-    }
-
-    .button:hover {
-      background:#BAB8B6;
-    }
-
     /* The hero image */
     .hero-image {
         background-image: url("https://Timothy-Tolley.github.io/Image/timothy-tolley-bike.jpg");
@@ -50,4 +34,19 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #FFFFFF;
+    }
+    .button {
+      color:#FFFFFF;
+      background:#D1D0CF;
+      padding:,10px;
+      border:none;
+      font-size: 20px;
+      cursor: crosshair;
+      text-decoration:none;
+      text-align:center;
+      font-family: cursive;
+    }
+
+    .button:hover {
+      background:#BAB8B6
     }
