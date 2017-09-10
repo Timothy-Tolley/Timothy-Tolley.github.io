@@ -18,8 +18,8 @@ body, html {
 
 /* The hero image */
 .hero-image {
-    background-image: url("https://raw.githubusercontent.com/timothy-tolley/timothy-tolley.github.io/master/image/timothy-tolley-bike.jpg");
-    height: 50%;
+    background-image: url("Timothy-Tolley.github.io/Image/timothy-tolley-bike.jpg");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,5 +33,5 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #E8A3D1;
 }
