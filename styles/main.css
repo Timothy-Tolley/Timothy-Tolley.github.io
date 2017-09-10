@@ -1,6 +1,6 @@
 body {
     color:#71A1D1;
-    background-color:#6E75BA;
+    background-color:#D1D0CF;
     font-family:cursive;
     Padding:20px;
     }
@@ -22,8 +22,10 @@ body {
       border: none;
       padding: 7px 20px;
       cursor: crosshair;
-      text decoration:none;
-      display:inline;
+      text-decoration:none;
+      text-align:center;
+      font-family: cursive;
+
 
 
 
