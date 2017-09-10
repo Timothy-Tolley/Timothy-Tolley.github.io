@@ -1,5 +1,5 @@
 body {
-    color:#E8A3D1;
+    color:#FFFFFF;
     font-family:cursive;
     Padding:20px;
     }
@@ -9,7 +9,7 @@ body {
     }
 
 .secondary {
-color:#E8A3D1;
+color:#FFFFFF;
 padding:10px;
 }
 
@@ -35,5 +35,5 @@ padding:10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #E8A3D1;
+    color: #FFFFFF;
 }
