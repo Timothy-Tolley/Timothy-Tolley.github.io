@@ -55,6 +55,8 @@ body {
       background:#BAB8B6
     }
 
+/* blog posts */
+
     .button-2 {
       color:#71A1D1;
       background:none;
@@ -68,4 +70,8 @@ body {
       display: inline;
       Margin-right:20px;
       margin-left: 20px;
+    }
+
+    #shereef {
+      text-decoration:none;
     }
