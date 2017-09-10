@@ -40,7 +40,7 @@ body {
       background:#D1D0CF;
       padding:,15px 20px 15px 20px;
       border:none;
-      border-radius: 15px;
+      border-radius: 25px;
       font-size: 20px;
       cursor: crosshair;
       text-decoration:none;
@@ -63,7 +63,7 @@ body {
       background:none;
       padding:,15px 20px 15px 20px;
       border:none;
-      border-radius: 15px;
+      border-radius: 25px;
       font-size: 20px;
       cursor: crosshair;
       text-decoration:none;
@@ -76,4 +76,6 @@ body {
 
     #shereef {
       text-decoration:none;
+      display: inline;
+      
     }
