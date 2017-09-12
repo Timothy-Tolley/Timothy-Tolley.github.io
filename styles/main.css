@@ -95,14 +95,14 @@ body {
   max-height:15%
 }
 .content{
-  display:flex;
+  display:run-in;
   padding:20px;
   margin:20px;
   border:none;
   max-width:80%;
 }
 .link-console{
-  display:flex;
+  display:run-in;
   padding:20px;
   margin:20px;
   border:none;
