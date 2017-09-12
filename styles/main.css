@@ -37,8 +37,8 @@ body {
     }
     .button {
       color:#FFFFFF;
-      background:#D1D0CF;
-      padding:40px;
+      background:#D1e4CF;
+      padding:20px;
       border:none;
       border-radius: 5px;
       font-size: 20px;
@@ -59,7 +59,7 @@ body {
 /* blog posts */
 
     .button-2 {
-      color:#71A1D1;
+      color:#ffffff;
       background:none;
       padding:20px;
       border:none;
