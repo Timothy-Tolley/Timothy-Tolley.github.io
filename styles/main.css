@@ -47,7 +47,7 @@ body {
       cursor: crosshair;
       text-decoration:none;
       text-align:center;
-      font-family: cursive;
+      font-family: Palatino;
       display: inline;
       Margin-right:20px;
       margin-left: 20px;
@@ -59,8 +59,16 @@ body {
     }
 
     .icon{
-      width:20px;
-      height:20px;
+      width:4px;
+      height:4px;
+      cursor:crosshair;
+      align-content: center;
+      Margin:20px;
+      Border-radius: 10%;
+
+
+
+
     }
 
 /* blog posts */
@@ -75,7 +83,7 @@ body {
       cursor: crosshair;
       text-decoration:none;
       text-align:center;
-      font-family: cursive;
+      font-family: Palatino;
       display: inline;
       Margin-right:20px;
       margin-left: 20px;
