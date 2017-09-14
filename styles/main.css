@@ -1,7 +1,7 @@
 body {
     color:#ffA1D1;
     background-color:#FFFFFF;
-    font-family:cursive;
+    font-family:Palatino;
     Padding:20px;
     }
 
@@ -37,10 +37,12 @@ body {
     }
     .button {
       color:#FFFFFF;
-      background:#D1e4CF;
+      background-color:none;
       padding:20px;
-      border:none;
+      border:solid;
+      border-color: #ffffff;
       border-radius: 5px;
+      border-width: 3px;
       font-size: 20px;
       cursor: crosshair;
       text-decoration:none;
