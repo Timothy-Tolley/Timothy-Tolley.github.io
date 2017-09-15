@@ -89,6 +89,7 @@ body {
   .banner{
     width:100%;
     height:auto;
+    padding-bottom: 20px;
   }
   .text{
     max-width: 600px;
@@ -103,15 +104,13 @@ body {
 
   }
   .main {
-    max-width:100%;
-    max-height:15%
+    max-width:70%;
   }
   .content{
     display:run-in;
     padding:20px;
     margin:20px;
     border:none;
-    max-width:80%;
   }
   .link-console{
     display:run-in;
