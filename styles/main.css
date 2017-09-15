@@ -71,21 +71,56 @@ body {
 
 /* blog posts */
 
-    .button-2 {
-      color:#ffffff;
-      background:none;
-      padding:20px;
-      border:none;
-      border-radius: 5px;
-      font-size: 20px;
-      cursor: crosshair;
-      text-decoration:none;
-      text-align:center;
-      font-family: Palatino;
-      display: inline;
-      Margin-right:20px;
-      margin-left: 20px;
-    }
+  .button-2 {
+    color:#ffffff;
+    background:none;
+    padding:20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: crosshair;
+    text-decoration:none;
+    text-align:center;
+    font-family: Palatino;
+    display: inline;
+    Margin-right:20px;
+    margin-left: 20px;
+  }
+  .banner{
+    width:100%;
+    height:auto;
+  }
+  .text{
+    max-width: 600px;
+  }
+
+  .header {
+    padding:20px;
+    margin:20px;
+    border:none;
+    max-width:100%;
+    max-height:85%;
+
+  }
+  .main {
+    max-width:100%;
+    max-height:15%
+  }
+  .content{
+    display:run-in;
+    padding:20px;
+    margin:20px;
+    border:none;
+    max-width:80%;
+  }
+  .link-console{
+    display:run-in;
+    padding:20px;
+    margin:20px;
+    border:none;
+    max-width:20%;
+  }
+
 /* c1-reflection */
 
     #shereef {
@@ -94,30 +129,3 @@ body {
     }
 
 /*c1-time-and-habits */
-
-.header {
-  padding:20px;
-  margin:20px;
-  border:none;
-  max-width:100%;
-  max-height:85%;
-
-}
-.main {
-  max-width:100%;
-  max-height:15%
-}
-.content{
-  display:run-in;
-  padding:20px;
-  margin:20px;
-  border:none;
-  max-width:80%;
-}
-.link-console{
-  display:run-in;
-  padding:20px;
-  margin:20px;
-  border:none;
-  max-width:20%;
-}
