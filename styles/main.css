@@ -64,6 +64,8 @@ body {
       cursor:crosshair;
       Margin:20px;
       Border-radius: 10%;
+      position:static;
+        align-items: center, baseline;
     }
 
 
