@@ -1,3 +1,9 @@
 Body {
   text-align: center;
 }
+
+#featured-image {
+  max-width: 900px;
+  max-height: auto;
+  
+}
