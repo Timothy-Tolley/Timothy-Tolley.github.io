@@ -1,9 +1,41 @@
+
+
 Body {
+  font-family:Palatino;
+  align-items: center;
+}
+
+h1{
+  Font-family: Palatino;
   text-align: center;
 }
 
-#featured-image {
-  max-width: 900px;
-  max-height: auto;
-  
+header{
+  background-color: #FF8E6B;
+  margin-bottom: 1rem;
+}
+
+
+#title{
+  position:relative;
+  transform: translateY(15%)
+}
+
+.blog-image {
+  max-width: 100%;
+}
+
+.featured-image {
+  max-width: 600px;
+  display:inline-flex;
+}
+
+.Featured-blog-link {
+  color:black;
+  text-decoration: none;
+  Font-family: Palatino;
+}
+
+.Featured-blog-link:hover {
+  color:grey;
 }
