@@ -21,6 +21,14 @@ header{
   transform: translateY(15%)
 }
 
+.blog-heading{
+  Display:inline-flex;
+}
+
+.category{
+  display:inline-flex;
+}
+
 .blog-image {
   max-width: 100%;
 }
