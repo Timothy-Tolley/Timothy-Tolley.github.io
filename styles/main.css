@@ -3,18 +3,23 @@
 Body {
   font-family:Palatino;
   align-items: center;
+  background-color: #FFFEFC;
 }
 
-h1{
+h2{
   Font-family: Palatino;
   text-align: center;
 }
 
 header{
-  background-color: #FF8E6B;
-  margin-bottom: 1rem;
+  background-color: #E8E8E1;
 }
 
+.navigation{
+  position: sticky;
+  background-color: #E8E8E1;
+  margin-bottom: 15px
+}
 
 #title{
   position:relative;
@@ -66,8 +71,18 @@ header{
 }
 
 .footer{
-  background-color:#FF8E6B;
+  background-color:#E8E8E1;
   margin-top: 3rem;
   padding-top: 20px;
+  padding-bottom:20px;
+}
 
+#footer-nav{
+  text-decoration: none;
+  text-align: left;
+  color:grey;
+}
+
+#footer-nav:hover{
+  color:black;
 }
