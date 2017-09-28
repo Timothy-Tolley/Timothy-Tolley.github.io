@@ -93,6 +93,7 @@ header{
   text-decoration: none;
   text-align: left;
   color:grey;
+  padding-bottom: 10px;
 }
 
 #footer-nav:hover{

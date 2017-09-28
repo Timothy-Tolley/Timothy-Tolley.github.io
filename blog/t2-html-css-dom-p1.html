@@ -1,82 +1,140 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <Title> Udacity Reflection</Title>
-  <meta charset="UTF-8">
+  <head>
+    <title>HTML, CSS and the DOM</title>
+    <meta charset="UTF-8">
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="https://timothy-tolley.github.io/styles/main.css">
 
-</head>
+  </head>
 
-<Body>
-  <div>
-    <img src="
-    https://Timothy-Tolley.github.io/Image/Rag3.jpg" alt="Raglan Waves"
-    Class="banner">
-  </div>
-  <div class="text">
+  <body>
 
-    <div class="header">
-      <h1>Technical Blog Part 1</h1>
-    </div>
+<!--header-->
 
+    <header class="band header">
+      <div class=container>
+        <div class="row">
+          <div class="twelve columns" id="title">
+            <h2> TIMOTHY TOLLEY EDA </h2>
+          </div>
+        </div>
+      </div>
+    </header>
 
-      <div class="main">
-        <div class= "content">
+<!--Navigation-->
 
-          <h3>HTML, CSS and the DOM</h3>
-          <p>
-            HTML is the foundations upon which a website is created. The HTML is like the wheels and engine on a car while the CSS is the fairings and paint work. HTML makes up the websites structure which is then beautified by the CSS code. The DOM, meanwhile, is made up of the HTML tags and is a framework for the page which allows the page to be displayed on your screen. It is, to continue the car analogy, like the chassis of the car, holding the main parts together in each section.
+    <div class="band navigation">
 
-            The HTML is a series of code which forms the structural form of the page and includes the written text, the divisions which make up the page's structure and in some cases links to images and other external sources of content.
-
-            The CSS is the code which alters the visual aspects of the page such as the font colour, size and style and the size and shape of the divisions which make up the page. CSS is not essential but makes a page asthetically pleasing.
-
-            The DOM is a series of elements that are used within HTML to classify the purpose of an element of a page. A tag such as the paragraph tag is a DOM element. DOM elements can be given classes to help CSS and Javascript to interact and alter their function and appearance.
-          </p>
-          <h3>Boxifying</h3>
-          <p>
-            Boxifying is the idea of spliting a website into a series of boxes which each encompass one of the many layers of the website itself. To boxify a webpage like this one, you would put boxes arounf the photo and the text, and then within the "text" box you would further add separate boxes for the title and the main content. This helps a web designer to recognise the elements that need to be coded into a webpage and rearrange them in a functioning manner as befits the original design.
-          </p>
-          <h3>box model</h3>
-          <p>
-            The box model is just a term used to describe the afore mentioned method of dividing a website into a series of boxes to aid in design and layout. A box is put around each HTML element and this box is made up of the element and the CSS code that affects its size, shape, location and content design.
-          </p>
-          <h4>Blog Wishlist</h4>
-          <Ul class="list">
-            <li>
-              A Homepage following an index page which only has a hero image and a button which unlocks the blog
-            </li>
-            <li>
-              Homepage with a header, categories bar, and then a scroll of links and blurbs for articles/reflections with appropriate image
-            </li>
-            <li>
-              Footer with important links to different parts of the site and things that people usually look for at the bottom of a page like "contact us" and a blurb about the blog.
-            </li>
-            <li>
-              A search function
-            </li>
-            <li>
-              a large automatically scrolling photo slideshow with links to 5 or so "featured" posts
-            </li>
-            <li>
-              Social media links - made with simple icons
-            </li>
-            <li>
-              clickable categories that a blog post fits into displayed after each article on the homepage which link to a further page dispaying every article classified in the chosen category
-            </li>
-          </Ul>
-
-
+      <div class="container">
+        <div class="row">
+          <div class="row">
+              <a class="button one-third column" href='https://timothy-tolley.github.io/category/Reflections'> REFLECTION BLOGS </a>
+              <a class="button one-third column" href="https://timothy-tolley.github.io/category/Technical"> TECHNICAL BLOGS </a>
+              <a class="button one-third column" href="https://timothy-tolley.github.io/category/HTML-CSS"> HTML/CSS BLOGS </a>
+          </div>
+        </div>
       </div>
 
-      <div class="link-console">
-        <a class="button-2" href="https://timothy-tolley.github.io/index.html"> Return to Home </a>
+    </div>
+<!--Post start-->
+
+<!--Blog Image-->
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve columns">
+        <img src="https://Timothy-Tolley.github.io/Image/Rag3.jpg"  class="u-max-full-width" alt="Starfish Raglan"/>
+      </div>
+    </div>
+
+  </div>
+
+<!--Blog title-->
+  <div class="container">
+    <div class="row">
+      <h1 class="six columns Blog-title"> HTML, CSS and the DOM 1/2</h1>
+      <div class="container five columns">
+        <a class="button" id="category" href=""> HTML</a>
+        <a class="button" id="category" href=""> CSS</a>
       </div>
     </div>
   </div>
 
-</Body>
+  <!--Blog Content-->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <p>
+          HTML is the foundations upon which a website is created. The HTML is like the wheels and engine on a car while the CSS is the fairings and paint work. HTML makes up the websites structure which is then beautified by the CSS code. The DOM, meanwhile, is made up of the HTML tags and is a framework for the page which allows the page to be displayed on your screen. It is, to continue the car analogy, like the chassis of the car, holding the main parts together in each section.
+
+          The HTML is a series of code which forms the structural form of the page and includes the written text, the divisions which make up the page's structure and in some cases links to images and other external sources of content.
+
+          The CSS is the code which alters the visual aspects of the page such as the font colour, size and style and the size and shape of the divisions which make up the page. CSS is not essential but makes a page asthetically pleasing.
+
+          The DOM is a series of elements that are used within HTML to classify the purpose of an element of a page. A tag such as the paragraph tag is a DOM element. DOM elements can be given classes to help CSS and Javascript to interact and alter their function and appearance.
+        </p>
+        <h3>Boxifying</h3>
+        <p>
+          Boxifying is the idea of spliting a website into a series of boxes which each encompass one of the many layers of the website itself. To boxify a webpage like this one, you would put boxes arounf the photo and the text, and then within the "text" box you would further add separate boxes for the title and the main content. This helps a web designer to recognise the elements that need to be coded into a webpage and rearrange them in a functioning manner as befits the original design.
+        </p>
+        <h3>box model</h3>
+        <p>
+          The box model is just a term used to describe the afore mentioned method of dividing a website into a series of boxes to aid in design and layout. A box is put around each HTML element and this box is made up of the element and the CSS code that affects its size, shape, location and content design.
+        </p>
+        <h4>Blog Wishlist</h4>
+        <Ul class="list">
+          <li>
+            A Homepage following an index page which only has a hero image and a button which unlocks the blog
+          </li>
+          <li>
+            Homepage with a header, categories bar, and then a scroll of links and blurbs for articles/reflections with appropriate image
+          </li>
+          <li>
+            Footer with important links to different parts of the site and things that people usually look for at the bottom of a page like "contact us" and a blurb about the blog.
+          </li>
+          <li>
+            A search function
+          </li>
+          <li>
+            a large automatically scrolling photo slideshow with links to 5 or so "featured" posts
+          </li>
+          <li>
+            Social media links - made with simple icons
+          </li>
+          <li>
+            clickable categories that a blog post fits into displayed after each article on the homepage which link to a further page dispaying every article classified in the chosen category
+          </li>
+        </Ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer-->
+
+      <div class="Band footer">
+
+        <div class="container">
+          <div class="row">
+              <a class="four columns" id="footer-nav" href='https://timothy-tolley.github.io/index.html'> Return Home </a>
+              <a class="four columns" id="footer-nav" href="https://timothy-tolley.github.io/blog/t2-html-css-dom-p1.html"> Navigation </a>
+              <a class="four columns" id="footer-nav" href="https://timothy-tolley.github.io/blog/t2-html-css-dom-p2.html"> Navigation </a>
+          </div>
+          <div class="row">
+              <a class="four columns" id="footer-nav" href='https://timothy-tolley.github.io/blog/c1-reflection-blog.html'> Navigation </a>
+              <a class="four columns" id="footer-nav" href="https://timothy-tolley.github.io/blog/t2-html-css-dom-p1.html"> Navigation </a>
+              <a class="four columns" id="footer-nav" href="https://timothy-tolley.github.io/blog/t2-html-css-dom-p2.html"> Navigation </a>
+          </div>
+
+        </div>
+
+      </div>
+
+  <!--bottom navigation-->
+
+
+  </body>
 </html>
