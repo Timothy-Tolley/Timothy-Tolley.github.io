@@ -1,3 +1,30 @@
+/* Hero Page CSS*/
+
+/* homepage*/
+
+.hero-section {
+  background: url('https://timothy-tolley.github.io/image/rag1.jpg') 50% no-repeat;
+  background-size: cover;
+  height:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+.hero-section-text{
+      color: $white;
+      text-shadow: 1px 1px 2px $black;
+    }
+
+
+#icon{
+  width:25px;
+  height:25px;
+  Margin:1px;
+  Border-radius: 10%;
+  position:static;
+    align-items: center, baseline;}
+
 
 
 /*Homepage Css*/
