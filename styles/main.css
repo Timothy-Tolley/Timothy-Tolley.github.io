@@ -100,3 +100,14 @@ header{
 }
 
 /* Blog post CSS */
+
+
+.Blog-title {
+  Color:Black
+  padding:20px;
+}
+
+#Shereef{
+  text-decoration: none;
+  color:black;
+}
