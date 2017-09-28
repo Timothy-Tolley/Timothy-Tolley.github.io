@@ -21,19 +21,26 @@ header{
   transform: translateY(15%)
 }
 
+#category{
+  max-height: 20px;
+  font-size: 0.75vw;
+  max-width:20px;
+  position: absolute;
+  padding: 0;
+}
+
 .blog-heading{
   Display:inline-flex;
 }
 
-footer{
+.footer{
   background-color:#FF8E6B;
-  position:relative;
-  transform: translateY(20%)
+  margin-top: 3rem;
+
 }
 
 .category{
-  display: inline;
-  padding:5px;
+
 }
 
 .blog-image {
