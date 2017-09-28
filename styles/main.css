@@ -22,25 +22,24 @@ header{
 }
 
 #category{
-  max-height: 20px;
   font-size: 0.75vw;
-  max-width:20px;
-  position: absolute;
-  padding: 0;
+  width:inherit;
+  padding:inherit;
+  padding-left:10px;
+  padding-right:10px;
+  padding bottom:5px;
+  Margin-right:10px;
 }
 
 .blog-heading{
   Display:inline-flex;
+  text-decoration: none;
+  color:black;
+  font-size: 2vw;
 }
 
-.footer{
-  background-color:#FF8E6B;
-  margin-top: 3rem;
-
-}
-
-.category{
-
+.blog-heading:hover{
+  color:grey;
 }
 
 .blog-image {
@@ -60,4 +59,15 @@ header{
 
 .Featured-blog-link:hover {
   color:grey;
+}
+
+.summary{
+  padding-bottom:40px;
+}
+
+.footer{
+  background-color:#FF8E6B;
+  margin-top: 3rem;
+  padding-top: 20px;
+
 }
