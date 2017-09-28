@@ -1,5 +1,7 @@
 
 
+/*Homepage Css*/
+
 Body {
   font-family:Palatino;
   align-items: center;
@@ -15,16 +17,20 @@ header{
   background-color: #E8E8E1;
 }
 
+#title{
+  position:relative;
+  transform: translateY(15%)
+}
+
+/*navigation*/
+
 .navigation{
   position: sticky;
   background-color: #E8E8E1;
   margin-bottom: 15px
 }
 
-#title{
-  position:relative;
-  transform: translateY(15%)
-}
+
 
 #category{
   font-size: 0.75vw;
@@ -34,6 +40,29 @@ header{
   padding-right:10px;
   padding bottom:5px;
   Margin-right:10px;
+}
+
+/*Featured Post*/
+
+.featured-image {
+  max-width: 600px;
+  display:inline-flex;
+}
+
+.Featured-blog-link {
+  color:black;
+  text-decoration: none;
+  Font-family: Palatino;
+}
+
+.Featured-blog-link:hover {
+  color:grey;
+}
+
+/*Blog Post*/
+
+.summary{
+  padding-bottom:40px;
 }
 
 .blog-heading{
@@ -51,24 +80,7 @@ header{
   max-width: 100%;
 }
 
-.featured-image {
-  max-width: 600px;
-  display:inline-flex;
-}
-
-.Featured-blog-link {
-  color:black;
-  text-decoration: none;
-  Font-family: Palatino;
-}
-
-.Featured-blog-link:hover {
-  color:grey;
-}
-
-.summary{
-  padding-bottom:40px;
-}
+/*Footer*/
 
 .footer{
   background-color:#E8E8E1;
@@ -86,3 +98,5 @@ header{
 #footer-nav:hover{
   color:black;
 }
+
+/* Blog post CSS */
