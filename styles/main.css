@@ -2,6 +2,8 @@
 
 /* homepage*/
 
+$hero-height: 60vh;
+
 .hero-section {
   background: url('https://timothy-tolley.github.io/image/rag1.jpg') 50% no-repeat;
   background-size: cover;
@@ -105,6 +107,9 @@ header{
 
 .blog-image {
   max-width: 100%;
+}
+
+.wireframe{
 }
 
 /*Footer*/
