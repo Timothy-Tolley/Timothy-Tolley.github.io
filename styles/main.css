@@ -1,23 +1,38 @@
 /* Hero Page CSS*/
 
-/* homepage*/
 
-$hero-height: 60vh;
-
-.hero-section {
-  background: url('https://timothy-tolley.github.io/image/rag1.jpg') 50% no-repeat;
-  background-size: cover;
-  height:100%;
+/* Hero
+ * --------------------------- */
+ .hero {
+  padding: 0;
+  min-height: 500px;
   text-align: center;
+  position: relative;
+  background-color: #d56d4d; /* layer fill content */
+  color: white;
+ }
+
+/* Hero content
+ * --------------------------- */
+.hero-content {
+  padding: 12px;
+  max-width: 192px; }
+/* Hero image
+ * --------------------------- */
+
+.hero-image {
+  background: url("https://timothytolley.github.io/image/rag1.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: .9;
+}
+
+#image1{
   display: flex;
-  align-items: center;
-  justify-content: center;}
-
-.hero-section-text{
-      color: $white;
-      text-shadow: 1px 1px 2px $black;
-    }
-
+  width: 100%;
+  height: auto; }
 
 #icon{
   width:25px;
@@ -25,7 +40,11 @@ $hero-height: 60vh;
   Margin:1px;
   Border-radius: 10%;
   position:static;
-    align-items: center, baseline;}
+  align-items: center, baseline;}
+
+
+
+/* homepage*/
 
 
 
@@ -110,6 +129,7 @@ header{
 }
 
 
+
 /*Footer*/
 
 .footer{
@@ -141,4 +161,10 @@ header{
 #Shereef{
   text-decoration: none;
   color:black;
+}
+
+/* maori proverb */
+#proverb{
+  align-items: center;
+  border-color: black
 }
