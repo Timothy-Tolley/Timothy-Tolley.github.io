@@ -1,6 +1,6 @@
 
-var proverb = document.getElementById("proverb");
-var genButton = document.getElementById("proverb-generator");
+var proverbContainer = document.getElementById('proverb')
+
 
 
 
@@ -9,10 +9,14 @@ function getProverb(){
   xhr.open("GET", "https://eda-te-reo.herokuapp.com/api/proverbs", false)
   xhr.onload =function (){
     var newProverb= JSON.parse(xhr.responseText);
-    console.log(newProverb[0]);
+  renderHTML(newProverb);
   }
   xhr.send();
 };
 
+function renderHTML(){
+  var htmlString = ""
+  proverbContainer.insertAdjacentHTML('beforeend', htmlString);
+}
 
-genButton.addEventListener("click", getProverb)
+document.getElementById("proverb-generator").addEventListener("click", getProverb)
