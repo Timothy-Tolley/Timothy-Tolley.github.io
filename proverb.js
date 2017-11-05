@@ -1,14 +1,19 @@
-$(function()){
+var proverbDiv =document.getElementById('proverb');
+var proverbGenerator = document.getElementById('proverb-generator');
 
-var $proverb = $('#proverb');
+proverbGenerator.addEventListener('click', function(){
+var getProverb = new XMLHttpRequest();
+getProverb.open('GET', 'https://eda-te-reo.herokuapp.com/api/proverbs')
+getProverb.onload= function(){
+  var myProverb =JSON.parse(getProverb.responseText);
+  var myProverb= getProverb.responseText;
+  addProverb(myProverb)
+}
 
-  $.ajax({
-    type:'GET',
-    URl:'https://eda-te-reo.herokuapp.com/api/proverbs',
-    success: function (proverbs){
-      $.each(proverbs, function(i, proverb){
-      $proverb.append('<p>Proverb: '+proverb.source+'</p>, <p>Translation: '+proverb.translation+'</p>')
+getProverb.send();
+});
 
-    }
-  });
+function addProverb(proverb){
+
+
 }
