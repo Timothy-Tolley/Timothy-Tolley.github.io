@@ -14,11 +14,11 @@ function getProverb(){
 
 function renderHTML(data){
   var htmlString = "";
-  for (i=0;i<data.length;i++){
-  htmlString+="<p>" + "Proverb: "+data[i].source+"</p>"+"<p>"+"Translation: "+ data[i].translation+"</p>";
+
+  htmlString+="<p>" + "Proverb: "+data.source+"</p>"+"<p>"+"Translation: "+ data.translation+"</p>";
 
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
-  }
+
 }
 
 document.getElementById("proverb-generator").addEventListener("click", getProverb);
