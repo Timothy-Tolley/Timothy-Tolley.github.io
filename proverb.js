@@ -12,8 +12,11 @@ function getProverb(){
   xhr.send();
 };
 
-function renderHTML(){
-  var htmlString = "This worked"
+function renderHTML(data){
+  var htmlString = "";
+  for (i=0;i<data.length;i++){
+  htmlString+="<p> Proverb: "+data[i].source+"</p>"+"<p> Translation: "+ data[i].translation+"</p>"
+
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
 }
 
