@@ -19,5 +19,6 @@ function renderHTML(data){
 
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
 }
+}
 
 document.getElementById("proverb-generator").addEventListener("click", getProverb);
