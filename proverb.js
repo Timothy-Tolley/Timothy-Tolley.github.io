@@ -13,7 +13,7 @@ function getProverb(){
 };
 
 function renderHTML(){
-  var htmlString = ""
+  var htmlString = "This worked"
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
 }
 
