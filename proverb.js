@@ -1,9 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', start)
+var proverbContainer = document.getElementById('proverb')
 
-function start (){
-  getProverb()
-}
 
 function getProverb(){
   var xhr = new XMLHttpRequest();
@@ -15,9 +12,13 @@ function getProverb(){
   xhr.send();
 };
 
-  function renderHTML(data) {
-    document.getElementById('source').innerText = data.source
-    document.getElementById('translation').innerText = data.translation
-  };
+function renderHTML(data){
+  var htmlString = "";
+
+  htmlString+="<p>" + "Proverb: "+data.source+"</p>"+"<p>"+"Translation: "+ data.translation+"</p>";
+
+  proverbContainer.insertAdjacentHTML('beforeend', htmlString);
+
+}
 
 document.getElementById("proverb-generator").addEventListener("click", getProverb);
