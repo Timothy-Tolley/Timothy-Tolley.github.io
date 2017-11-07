@@ -1,4 +1,6 @@
 
+document.addEventListener("DOMContentLoaded", function () {
+
 var proverbContainer = document.getElementById('proverb')
 
 
@@ -15,10 +17,12 @@ function getProverb(){
 function renderHTML(data){
   var htmlString = "";
 
-  htmlString+="<p>" + "Proverb: "+data.source+"</p>"+"<p>"+"Translation: "+ data.translation+"</p>";
+  htmlString+="<p id='pro'>" + "Proverb: "+data.source+"</p>"+"<p id='trans'>"+"Translation: "+ data.translation+"</p>";
 
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
 
 }
 
 document.getElementById("proverb-generator").addEventListener("click", getProverb);
+
+})
