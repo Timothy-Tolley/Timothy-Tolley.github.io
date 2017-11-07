@@ -17,7 +17,7 @@ function getProverb(){
 function renderHTML(data){
   var htmlString = "";
 
-  htmlString+="<p id='pro'>" + "Proverb: "+data.source+"</p>"+"<p id='trans'>"+"Translation: "+ data.translation+"</p>";
+  htmlString="<p id='pro'>" + "Proverb: "+data.source+"</p>"+"<p id='trans'>"+"Translation: "+ data.translation+"</p>";
 
   proverbContainer.insertAdjacentHTML('beforeend', htmlString);
 
