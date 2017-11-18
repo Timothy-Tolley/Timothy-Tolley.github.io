@@ -172,3 +172,12 @@ header{
 #pro{
   font-weight: bold;
 }
+
+
+/*calculator*/
+
+#calculator {
+  align-content: center;
+  background-color: grey;
+  border-color: black;
+}
