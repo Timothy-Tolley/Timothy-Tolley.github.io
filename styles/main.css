@@ -178,6 +178,24 @@ header{
 
 #calculator {
   align-content: center;
-  background-color: grey;
+  background-color: lightgrey;
   border-color: black;
+  border: 10px;
+  padding: 10px;
+  border-width: 2px;
+}
+
+#input{
+  background-color: #EEFFEE;
+  border: 5px;
+  border-width: 1px;
+  border-color: black;
+
+}
+#result{
+  background-color: #EEFFEE;
+  border: 5px;
+  border-width: 1px;
+  border-color: black;
+
 }
