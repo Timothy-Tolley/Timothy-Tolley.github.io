@@ -183,7 +183,7 @@ header{
   border: 10px;
   padding: 20px;
   border-width: 2px;
-  
+  display:block;
 }
 
 #input{
